@@ -1,0 +1,258 @@
+/* General Reseteo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+header button {
+    background-color: #2d7c31;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #235f26;
+}
+
+/* Sección de Información */
+#about {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#about p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Sección de Imágenes */
+#images {
+    background-color: #e8f5e9;
+    padding: 20px;
+    text-align: center;
+}
+
+#images h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.image-container img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección de Beneficios */
+#benefits {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#benefits h3 {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#benefits ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#benefits li {
+    width: 300px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#benefits li span {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #4caf50;
+}
+
+#benefits li img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#benefits li p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Sección de Seguridad de Agrocoin */
+#security {
+    background-color: #e8f5e9;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#security h3 {
+    font-size: 1.5em;
+    color: #4caf50;
+    margin-bottom: 15px;
+}
+
+#security img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#security p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+#security ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    color: #333;
+}
+
+#security ul li {
+    font-size: 0.95em;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+#security ul li strong {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+/* Formulario de Contacto */
+#contact {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#contactForm input, #contactForm button {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1em;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contactForm button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contactForm button:hover {
+    background-color: #388e3c;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Footer */
+footer {
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .image-container, #benefits ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    #contactForm input, #contactForm button {
+        width: 90%;
+    }
+}
