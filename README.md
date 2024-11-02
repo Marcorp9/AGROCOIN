@@ -7,7 +7,6 @@
 
 - [Descripción](#descripción)
 - [Características](#características)
-- [Instalación](#instalación)
 - [Uso](#uso)
 - [Implementación Web](#implementación-web)
 - [Contribuciones](#contribuciones)
@@ -26,22 +25,6 @@ Agrocoin está diseñado para proporcionar financiamiento accesible y rápido a 
 - **Innovación y Educación** en herramientas digitales para el agro.
 - **DApp** amigable para la consulta y promoción del token Agrocoin.
 
-## Instalación
-
-1. Clona el repositorio de Agrocoin:
-   ```bash
-   git clone https://github.com/usuario/agrocoin.git
-   ```
-
-2. Accede al directorio del proyecto:
-   ```bash
-   cd agrocoin
-   ```
-
-3. Instala las dependencias necesarias:
-   ```bash
-   npm install
-   ```
 
 4. Configura tu billetera MetaMask y conecta tu cuenta de Polygon a través de la dirección: `0x0A739402F099940a616d88299bCFBa3C351d1933`.
 
